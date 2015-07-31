@@ -1,6 +1,13 @@
 # jquery.gvalidate #
 A simple jquery form validator
 
+Inclua as dependencias:
+```html
+<script src="/path/to/jquery.js"></script>
+<script src="/path/to/jquery.gvalidate.js"></script>
+```
+
+
 Seu html:
 ```html
 <form id="myForm" action="#" >
