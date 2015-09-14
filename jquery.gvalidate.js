@@ -11,7 +11,7 @@
  "use strict";
 
 $.fn.gvalidate = function( inputsOptions ) {
-	var myInputs = {} || inputsOptions;
+	var myInputs = inputsOptions || {};
 
 	this.submit(function(){
 
